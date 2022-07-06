@@ -194,8 +194,8 @@
     }
 
 
+  
     /*main-section*/
-
     .main-section{
         position: relative;
         margin-block: 0;
@@ -328,7 +328,7 @@
         position: relative;
     }
 
-    
+    /*footer*/
     .footer{
         text-align: left;
         flex-direction: row;
