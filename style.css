@@ -252,6 +252,7 @@ body{
 .btn-drop{
     background: none;
     display: inline-block;
+    width: max-content;
 }
 
 .active{
