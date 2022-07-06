@@ -32,6 +32,10 @@
         z-index: 1;
         gap: 4rem;
     }
+    
+    .hamb-menu{
+        cursor: pointer;
+    }
 
     .box-logo,
     .box-logo-f{
