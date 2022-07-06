@@ -15,7 +15,7 @@ menubtn.addEventListener("click", () => {
   nav.classList.toggle("navbar--open")
 })
 
-
+/*script for open and close navbar menu (mobile and tablet)*/
 boxDrop.forEach(i => {
   i.children[0].addEventListener("click", e => {
       e.preventDefault();
