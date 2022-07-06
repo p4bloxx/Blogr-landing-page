@@ -2,8 +2,6 @@
 /*Desktop size*/
 @media screen and (min-width: 75em){
 
-  
-
     .mob{
         display: none;
     }
@@ -130,7 +128,13 @@
     .btn-drop{
         color: hsl(var(--clr-white));
         transition: all 0.3s;
+
     }
+
+    .dropmenu-box{
+        cursor: pointer;
+    }
+
 
     .btn-drop:hover{
         text-decoration: underline;
@@ -194,7 +198,6 @@
     }
 
 
-  
     /*main-section*/
     .main-section{
         position: relative;
@@ -328,6 +331,7 @@
         position: relative;
     }
 
+    
     /*footer*/
     .footer{
         text-align: left;
