@@ -10,61 +10,70 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2_Desktop.css">
-    <script src="script.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript" defer></script>
     <title>Blogr - landing</title>
 </head>
 <body>
     <div class="hero">
         <header class="header">
             <div class="box-logo">
-                <img src="images/logo.svg" alt="Blogr - logo">
+                <a href="index.html"><img src="images/logo.svg" alt=""></a>
             </div>
             <div class="hamb-menu">
                 <img src="images/icon-hamburger.svg" alt="icon open menu" class="open">
                 <img src="images/icon-close.svg" alt="icon close menu" class="close">
             </div>
+
             <nav class="navbar">
-                <ul class="menu fw-bld">
-                    <li class="item fs-100">Product
-                        <div class="arrows">
-                            <span><img src="images/icon-arrow-light.svg" alt="" class="desk"></span>
-                            <span><img src="images/icon-arrow-dark.svg" alt="" class="mob"></span>
+               <div class="menu">
+                    
+                        <div class="dropmenu-box fw-bld">
+                            <button class="btn-drop">Product</button>
+                            <div class="arrows">
+                                <span><img src="images/icon-arrow-dark.svg" alt="" class="mob"></span>
+                                <span><img src="images/icon-arrow-light.svg" alt="" class="desk"></span>
+                            </div>
+                            <ul class="dropmenu-sub fs-50">
+                               <li><a href="" class="link">Overview</a></li> 
+                               <li><a href="" class="link">Pricing</a></li> 
+                               <li><a href="" class="link">Marketplace</a></li> 
+                               <li><a href="" class="link">Features</a></li> 
+                               <li><a href="" class="link">Integrations</a></li> 
+                            </ul>
                         </div>
-                        <ul class="sub-menu fs-50">
-                            <li>Overview</li>
-                            <li>Pricing</li>
-                            <li>Marketplace</li>
-                            <li>Features</li>
-                            <li>Integrations</li>
-                        </ul>
-                    </li>
-    
-                    <li class="item fs-100">Company
-                        <div class="arrows">
-                            <span><img src="images/icon-arrow-light.svg" alt="" class="desk"></span>
-                            <span><img src="images/icon-arrow-dark.svg" alt="" class="mob"></span>
+                    
+
+                    
+                        <div class="dropmenu-box fw-bld">
+                            <button class="btn-drop">Company</button> 
+                            <div class="arrows">
+                                <span><img src="images/icon-arrow-dark.svg" alt="" class="mob"></span>
+                                <span><img src="images/icon-arrow-light.svg" alt="" class="desk"></span>
+                            </div>
+                            <ul class="dropmenu-sub fs-50">
+                              <li><a href="#" class="link">About</a></li>  
+                              <li><a href="#" class="link">Team</a></li>  
+                              <li><a href="#" class="link">Blog</a></li>  
+                              <li><a href="#" class="link">Careers</a></li>  
+                            </ul>
                         </div>
-                        <ul class="sub-menu fs-50">
-                            <li>About</li>
-                            <li>Team</li>
-                            <li>Blog</li>
-                            <li>Careers</li>
-                        </ul>
-                    </li>
-    
-                    <li class="item fs-100">Connect
-                        <div class="arrows">
-                            <span><img src="images/icon-arrow-light.svg" alt="" class="desk"></span>
-                            <span><img src="images/icon-arrow-dark.svg" alt="" class="mob"></span>
+                    
+
+                    
+                        <div class="dropmenu-box fw-bld">
+                            <button class="btn-drop">Connect</button> 
+                            <div class="arrows">
+                                <span><img src="images/icon-arrow-dark.svg" alt="" class="mob"></span>
+                                <span><img src="images/icon-arrow-light.svg" alt="" class="desk"></span>
+                            </div>
+                            <ul class="dropmenu-sub fs-50">
+                               <li><a href="" class="link">Contact</a></li> 
+                               <li><a href="" class="link">Newsletter</a></li> 
+                               <li><a href="" class="link">LinkedIn</a></li> 
+                            </ul>
                         </div>
-                        
-                        <ul class="sub-menu fs-50">
-                            <li>Contact</li>
-                            <li>Newsletter</li>
-                            <li>LinkedIn</li>
-                        </ul>
-                    </li>
-                </ul>
+                    
+               </div>
                 <span class="separator"></span>
                 <div class="cta-group-nav fw-bld fs-50">
                     <button>Login</button>
@@ -146,7 +155,7 @@
 
     <footer class="footer bg-footer">
         <div class="box-logo-f">
-            <img src="images/logo.svg" alt="">
+         <a href="index.html"><img src="images/logo.svg" alt=""></a>   
         </div>
         <div class="nav-f">
             <div class="box-menu">
